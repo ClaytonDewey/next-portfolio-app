@@ -1,5 +1,8 @@
 export const navbar = [
   {
+    title: 'Home',
+  },
+  {
     title: 'About',
   },
   {
