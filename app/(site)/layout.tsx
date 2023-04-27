@@ -1,4 +1,4 @@
-import '../globals.scss';
+import '../sass/main.scss';
 
 export const metadata = {
   title: 'Clayton Dewey :: Frontend Developer',
