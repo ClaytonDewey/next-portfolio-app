@@ -1,10 +1,11 @@
+'use client';
 import React, { useState, useEffect } from 'react';
 import { navbar } from '../content/navbar';
 import Link from 'next/link';
 
-type HeaderProps = {};
+type NavProps = {};
 
-const Header: React.FC<HeaderProps> = () => {
+const Nav: React.FC<NavProps> = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [scrollNav, setScrollNav] = useState(false);
 
@@ -42,4 +43,4 @@ const Header: React.FC<HeaderProps> = () => {
     </>
   );
 };
-export default Header;
+export default Nav;
