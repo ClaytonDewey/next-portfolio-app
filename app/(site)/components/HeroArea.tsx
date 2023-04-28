@@ -2,6 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import profilePic from '../../assets/profile.jpeg';
 import Nav from './Nav';
+import { FaJediOrder } from 'react-icons/fa';
 
 type HeroAreaProps = {};
 
@@ -19,12 +20,17 @@ const HeroArea: React.FC<HeroAreaProps> = () => {
             />
             <h1>Hi, I&apos;m Clayton!</h1>
             <p className='subhead'>Front End Developer</p>
-
-            <div>
-              <button>My Portfolio</button>
-              <button>Hire Me</button>
+            <div className='button-box'>
+              <button className='btn btn__primary'>My Portfolio</button>
+              <button className='btn btn__primary'>Hire Me</button>
             </div>
+            <p className='text-center'>
+              <FaJediOrder className='fa-jedi-order ' />
+            </p>
           </div>
+          <a href='#about' className='scroll-down'>
+            <div className='visually-hidden'>About Me</div>
+          </a>
         </div>
       </div>
     </div>
