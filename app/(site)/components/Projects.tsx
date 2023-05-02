@@ -1,4 +1,5 @@
 import { getProjects } from '@/sanity/sanity-utils';
+import Link from 'next/link';
 import Image from 'next/image';
 
 const Projects = async () => {
@@ -17,12 +18,14 @@ const Projects = async () => {
             <div className='project__body'>
               <div className='project__image'>
                 {project.image && (
-                  <Image
-                    src={project.image}
-                    alt={project.name}
-                    width={750}
-                    height={400}
-                  />
+                  <Link href={`/projects/${project.slug}`}>
+                    <Image
+                      src={project.image}
+                      alt={project.name}
+                      width={750}
+                      height={400}
+                    />
+                  </Link>
                 )}
               </div>
               <div className='project__header'>
