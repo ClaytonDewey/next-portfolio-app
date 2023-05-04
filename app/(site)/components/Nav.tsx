@@ -1,6 +1,5 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-import { navbar } from '../content/navbar';
 import Link from 'next/link';
 
 type NavProps = {};
@@ -31,13 +30,18 @@ const Nav: React.FC<NavProps> = () => {
         </button>
 
         <ul>
-          {navbar.map((item, index) => {
-            return (
-              <li key={index}>
-                <Link href={`#${item.title.toLowerCase()}`}>{item.title}</Link>
-              </li>
-            );
-          })}
+          <li>
+            <Link href='/'>Home</Link>
+          </li>
+          <li>
+            <Link href='/#about'>About</Link>
+          </li>
+          <li>
+            <Link href='/#projects'>Projects</Link>
+          </li>
+          <li>
+            <Link href='/#contact'>Contact</Link>
+          </li>
         </ul>
       </nav>
     </>

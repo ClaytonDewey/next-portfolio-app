@@ -6,9 +6,9 @@ const Projects = async () => {
   const projects = await getProjects();
 
   return (
-    <section id='portfolio'>
+    <section id='projects'>
       <h2 className='section__title'>
-        Portfolio
+        Projects
         <br />
         <span>My Work</span>
       </h2>
