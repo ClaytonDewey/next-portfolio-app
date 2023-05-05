@@ -28,3 +28,18 @@ const Custom404: React.FC<Custom404Props> = () => {
   );
 };
 export default Custom404;
+
+/* 
+  Resources:
+  https://greensock.com/react/
+  https://codepen.io/collection/ANaWkM/7a84da7eadcea7b5a4ed8f8430c597fd
+  https://github.com/imakewebthings/waypoints
+  https://jacekjeznach.com/
+  https://javascript.plainenglish.io/7-amazing-things-pure-css-can-do-for-you-b57f5b85cacd
+  https://javascript.plainenglish.io/7-practical-css-tips-c6e4d77f4c40
+  https://medium.com/stackanatomy/modern-css-selectors-4d6197e05f0f
+  https://medium.com/@mateofainalonso/get-hired-with-these-7-projects-cf97c623ae93
+  https://medium.com/free-code-camp/pipe-and-compose-in-javascript-5b04004ac937
+  https://javascript.plainenglish.io/8-cool-useful-javascript-coding-techniques-that-you-should-use-750835caaf01
+  https://javascript.plainenglish.io/solid-portfolio-website-for-developers-29a86aaefbe4
+*/
